@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Villager's Hub - Contact </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex between wrapper">
+            <a href="index.html" class="logo">Villager's Hub</a>
+            <ul class="navlist flex gap-3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i><span
+                        class="cart-value">0</span></a>
+                <a href="#" class="btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <label for="nav-toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+            </div>
+            <input type="checkbox" id="nav-toggle">
+            <ul class="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="wrapper">
+            <div style="text-align: center; padding-top: 4rem;">
+                <h1>Contact <span>Us</span></h1>
+                <p class="para" style="margin: 1rem auto;">We'd love to hear from you. Send us a message!</p>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-input" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-input" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-textarea" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; cursor: pointer; border: none;">Send
+                        Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem; background-color: var(--hint-yellow); margin-top: 2rem;">
+        <p>&copy; 2026 Villager's Hub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Villager's Hub - Services </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex between wrapper">
+            <a href="index.html" class="logo">Villager's Hub</a>
+            <ul class="navlist flex gap-3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i><span
+                        class="cart-value">0</span></a>
+                <a href="#" class="btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <label for="nav-toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+            </div>
+            <input type="checkbox" id="nav-toggle">
+            <ul class="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="wrapper" style="padding: 4rem 0;">
+            <div style="text-align: center;">
+                <h1>Our <span>Services</span></h1>
+                <p class="para" style="margin: 1rem auto;">We provide top-notch services for all your needs.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3>Fast Delivery</h3>
+                    <p style="color: gray; margin-top: 1rem;">We ensure your food reaches you hot and fresh within 30
+                        minutes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-utensils"></i></div>
+                    <h3>Quality Food</h3>
+                    <p style="color: gray; margin-top: 1rem;">Prepared by expert chefs using the finest ingredients from
+                        the village.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h3>24/7 Support</h3>
+                    <p style="color: gray; margin-top: 1rem;">Our team is always available to assist you with your
+                        orders.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem; background-color: var(--hint-yellow); margin-top: 2rem;">
+        <p>&copy; 2026 Villager's Hub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

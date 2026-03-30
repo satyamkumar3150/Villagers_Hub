@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Villager's Hub - Menu </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex between wrapper">
+            <a href="index.html" class="logo">Villager's Hub</a>
+            <ul class="navlist flex gap-3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i><span
+                        class="cart-value">0</span></a>
+                <a href="#" class="btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <label for="nav-toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+            </div>
+            <input type="checkbox" id="nav-toggle">
+            <ul class="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" class="btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="wrapper menu-section">
+            <div style="text-align: center; margin-bottom: 3rem; margin-top: 4rem;">
+                <h1>Our <span>Menu</span></h1>
+                <p class="para" style="margin: 1rem auto;">Delicious varieties to satisfy your hunger.</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Food Item 1 -->
+                <div class="menu-card">
+                    <img src="Burger.png" alt="Burger" class="menu-img">
+                    <div class="menu-info">
+                        <h3>Classic Burger</h3>
+                        <p class="menu-desc">Juicy beef patty with fresh lettuce and cheese.</p>
+
+                        <div class="menu-options">
+                            <select class="price-select">
+                                <option value="5.99">Small - $5.99</option>
+                                <option value="7.99">Medium - $7.99</option>
+                                <option value="9.99">Large - $9.99</option>
+                            </select>
+                        </div>
+
+                        <div class="menu-action">
+                            <a href="#" class="btn" style="padding: 0.5rem 1.5rem; font-size: 1rem;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Item 2 -->
+                <div class="menu-card">
+                    <img src="Pizza.png" alt="Pizza" class="menu-img">
+                    <div class="menu-info">
+                        <h3>Pepperoni Pizza</h3>
+                        <p class="menu-desc">Classic pepperoni with mozzarella cheese.</p>
+
+                        <div class="menu-options">
+                            <select class="price-select">
+                                <option value="12.99">Small - $12.99</option>
+                                <option value="16.99">Medium - $16.99</option>
+                                <option value="20.99">Large - $20.99</option>
+                            </select>
+                        </div>
+
+                        <div class="menu-action">
+                            <a href="#" class="btn" style="padding: 0.5rem 1.5rem; font-size: 1rem;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Item 3 -->
+                <div class="menu-card">
+                    <img src="Salad.png" alt="Salad" class="menu-img">
+                    <div class="menu-info">
+                        <h3>Fresh Salad</h3>
+                        <p class="menu-desc">Healthy mix of greens and seasonal vegetables.</p>
+
+                        <div class="menu-options">
+                            <select class="price-select">
+                                <option value="6.99">Small - $6.99</option>
+                                <option value="8.99">Medium - $8.99</option>
+                                <option value="10.99">Large - $10.99</option>
+                            </select>
+                        </div>
+
+                        <div class="menu-action">
+                            <a href="#" class="btn" style="padding: 0.5rem 1.5rem; font-size: 1rem;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Food Item 4 -->
+                <div class="menu-card">
+                    <img src="Drink.png" alt="Drink" class="menu-img">
+                    <div class="menu-info">
+                        <h3>Drink</h3>
+                        <p class="menu-desc">100+ varieties of drink that makes you refresh</p>
+
+                        <div class="menu-options">
+                            <select class="price-select">
+                                <option value="18.99">Small - $18.99</option>
+                                <option value="25.99">Medium - $25.99</option>
+                                <option value="35.99">Large - $35.99</option>
+                            </select>
+                        </div>
+
+                        <div class="menu-action">
+                            <a href="#" class="btn" style="padding: 0.5rem 1.5rem; font-size: 1rem;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Item 5 -->
+                <div class="menu-card">
+                    <img src="Pasta.png" alt="Pasta" class="menu-img">
+                    <div class="menu-info">
+                        <h3>Creamy Pasta</h3>
+                        <p class="menu-desc">Pasta in rich alfredo sauce.</p>
+
+                        <div class="menu-options">
+                            <select class="price-select">
+                                <option value="14.99">Small - $14.99</option>
+                                <option value="18.99">Medium - $18.99</option>
+                                <option value="22.99">Large - $22.99</option>
+                            </select>
+                        </div>
+
+                        <div class="menu-action">
+                            <a href="#" class="btn" style="padding: 0.5rem 1.5rem; font-size: 1rem;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Item 6 -->
+                <div class="menu-card">
+                    <img src="Ice_Cream.png" alt="Ice Cream" class="menu-img">
+                    <div class="menu-info">
+                        <h3>Ice Cream Sundae</h3>
+                        <p class="menu-desc">Three scoops of ice cream with toppings.</p>
+
+                        <div class="menu-options">
+                            <select class="price-select">
+                                <option value="4.99">Small - $4.99</option>
+                                <option value="6.99">Medium - $6.99</option>
+                                <option value="8.99">Large - $8.99</option>
+                            </select>
+                        </div>
+
+                        <div class="menu-action">
+                            <a href="#" class="btn" style="padding: 0.5rem 1.5rem; font-size: 1rem;">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem; background-color: var(--hint-yellow); margin-top: 2rem;">
+        <p>&copy; 2026 Villager's Hub. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
