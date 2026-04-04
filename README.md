@@ -27,3 +27,12 @@ For this project, I focused only on the frontend part, but it gave me a clear pi
 - CSS  
 - JavaScript  
 
+
+
+Note : I made only frontened now of the Villager Hub 
+      So, some features are not working
+      
+      1. Sign in and Cart button are not fully working
+      2. Home page: Twitter, Instagram, Facebook buttons are not working 
+      3. Contact page: Only data is entered not saved in a server 
+      4. Menu page: Only food chooses not ordering and no cart value change
